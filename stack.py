@@ -4,7 +4,7 @@ class Stack:
         self.__size = size
         self.__stack_type = stack_type
 
-    @staticmethod
+
     def type_check(func):
             def wrapper(self, value):
                 if not isinstance(value, self.__stack_type):
